@@ -1,0 +1,111 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 100dvw;
+    min-height: 100dvh;
+    background-color: rgb(244, 219, 255);
+}
+
+main{ 
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+
+}
+
+.izquierda{
+display: flex;
+flex-grow: 1;
+margin: 20px 100px;
+}
+
+.encriptador {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-top: 70px;
+}
+
+.leyenda {
+    display: flex;
+    gap: 15px;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.input {
+    background-color: transparent;
+    font-size: 32px;
+    color: rgb(121, 11, 11);
+    font-weight: 400;
+    border: 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 50px;
+    margin:  20px 0px;
+    border: 0;
+}
+
+.buttons button {
+    border-radius: 20px;
+    background-color: rgb(144, 110, 224);
+    width: 220px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 0;
+}
+
+.derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 50px;
+    gap: 25px;
+    padding: 0px 45px;
+    border-radius: 30px;
+    box-shadow: -5px 20px 50px;
+}
+
+.derecha img {
+    width: 250px;
+    mix-blend-mode: multiply;
+}
+
+.derecha textarea {
+    background-color: transparent;
+    flex-grow: 1;
+    width: 250px;
+    max-height: 200px;
+    color: blue;
+    border: 0;
+}
+
+.derecha p {
+    width: 250px;
+    text-align: center;
+    font-weight: 600;
+}
+
+footer {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    height: 70px;
+}
+
+footer p {
+    color: rgba(0, 0, 0, 0.664);
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
